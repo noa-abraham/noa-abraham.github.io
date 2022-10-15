@@ -11241,6 +11241,7 @@
                 color: #fff;
                 color: white;
                 line-height: .1vh;
+                font-weight: 1000;
                 /*-webkit-text-fill-color: transparent;
             /* Will override color (regardless of order) */
             }
@@ -11886,6 +11887,22 @@
                 position: relative;
             }
             
+            .ftco-sectionInicial {
+                margin-top: -11em;
+            }
+            
+            .ftco-sectionInicial2 {
+                margin-top: -10em;
+            }
+            
+            .ftco-sectionInicial3 {
+                margin-top: -10em;
+            }
+            
+            .ftco-sectionInicial4 {
+                margin-top: -5em;
+            }
+            
             @media (max-width: 767.98px) {
                 .ftco-section {
                     padding-top: 6em;
@@ -12112,9 +12129,9 @@
             
             .heading-section h2 {
                 font-size: 8vw;
-                font-weight: 900;
+                font-weight: 450;
                 line-height: 1.0;
-                font-family: "Lora";
+                font-family: "Poppins", Arial, sans-serif;
                 text-align: left;
             }
             
@@ -14092,5 +14109,20 @@
                 }
             }
             /* ------------------------------------------------------------------- 
-   * Nuevo intento carrusel
+   * efecto parallax
    * ------------------------------------------------------------------- */
+            /* Ponemos cuadrados en capas parallax para poder ver el efecto */
+            
+            .scene {
+                content: '\e00a';
+            }
+            /* Iconos */
+            
+            ion-icon {
+                font-size: 64px;
+                position: absolute;
+                vertical-align: middle;
+                z-index: 1;
+                margin-left: auto;
+                margin-top: 20%;
+            }
