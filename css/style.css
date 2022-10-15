@@ -4544,6 +4544,9 @@
                     transition: none;
                 }
             }
+            /*!
+ * Barra de navegación
+ */
             
             .nav {
                 display: -webkit-box;
@@ -5097,6 +5100,9 @@
             .navbar-dark .navbar-text a:focus {
                 color: #fff;
             }
+            /*!
+ * FIN BARRA DE NAVEGACIÓN
+ */
             
             .card {
                 position: relative;
@@ -10957,6 +10963,7 @@
             .text-primary {
                 color: #fdcb6e !important;
             }
+            /*BARRA DE NAV, EXPANDIDA, TAL COMO APARECE EN MONITORES GRANDES*/
             
             .ftco-navbar-light {
                 background: transparent !important;
@@ -12101,7 +12108,7 @@
             }
             
             .heading-section h2 {
-                font-size: 5rem;
+                font-size: 13vw;
                 font-weight: 900;
                 line-height: 1.0;
                 font-family: "Lora";
