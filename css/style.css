@@ -12479,7 +12479,6 @@ h1:hover {
     height: 100%;
     position: absolute;
     z-index: -1;
-    border: 2px solid #ab87e0;
     transition: all 0.25s ease-out;
 }
 
