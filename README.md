@@ -1,5 +1,5 @@
 
-# Sitio Web :computer:
+# Sitio Web Estático :computer:
 - :point_right: Cliente: Venus & Mars
 - :point_right: Estado: en proceso.
 Se puede ver en  [GitHub Pages](noa-abraham.github.io).
